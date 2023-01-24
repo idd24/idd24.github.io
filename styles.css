@@ -5,6 +5,7 @@ body {
 
 .container-fluid{
     padding: 2% 15%;
+    padding-bottom: 14%;
 }
 
 /* general typography */
@@ -16,6 +17,19 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #E58275;
+    font-weight: 700;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #F1F6F9;
+    font-weight: 500;
+    font-size: 32px;
+}
+
 p {
     font-family: 'Roboto';
     font-style: normal;
@@ -24,6 +38,15 @@ p {
     color: #9BA4B4;
 }
 
+/* bootstrap */
+
+.col-lg-6 {
+    margin: auto;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #F1F6F9;
+}
 /* nav bar  */
 .navbar {
     padding: 0 0 8rem 0;
@@ -31,7 +54,7 @@ p {
 
 .navbar-brand {
     font-family: 'Playfair Display', serif;
-    color: #F1F6F9;
+    color: #E58275;
     font-weight: bold;
 }
 
@@ -44,12 +67,44 @@ p {
     color: #F1F6F9;
 }
 
-/* title */
+/* title section */
 
 .title-info {
     margin-top: 2.5rem;
 }
 
 .title-image {
-    width: 450px;
+    width: 100%;
+}
+
+/* experience section */
+#experience {
+    padding: 0% 15% 2% 15%;
+}
+
+.child-info {
+    margin: 5% 0 0 0;
+
+}
+.experience-image {
+    width: 100%;
+}
+
+.company-name {
+    font-size: 24px;
+}
+
+.company-info {
+    font-size: 16px;
+}
+
+/* skills */
+.skill {
+    /* text-align: left; */
+}
+.skill-image {
+    padding-right: 1rem;
+}
+.skill-name {
+    color: #9BA4B4;
 }
