@@ -45,7 +45,7 @@ p {
 }
 
 .btn:hover, .btn:focus {
-    background-color: #F1F6F9;
+    background-color: #9BA4B4;
 }
 /* nav bar  */
 .navbar {
@@ -79,7 +79,7 @@ p {
 
 /* experience section */
 #experience {
-    padding: 0% 15% 2% 15%;
+    padding: 2% 15% 6% 15%;
 }
 
 .child-info {
@@ -87,7 +87,7 @@ p {
 
 }
 .experience-image {
-    width: 100%;
+    width: 85%;
 }
 
 .company-name {
@@ -99,12 +99,79 @@ p {
 }
 
 /* skills */
-.skill {
-    /* text-align: left; */
-}
 .skill-image {
     padding-right: 1rem;
 }
 .skill-name {
     color: #9BA4B4;
+}
+
+/* contact */
+#contact {
+    padding: 0% 15% 2% 15%;
+}
+
+.contact-left {
+    padding: 2rem 0
+}
+.contact-title {
+    font-size: 80px;
+    padding-bottom: 2rem;
+}
+
+.contact-text {
+    font-size: 22px;
+}
+
+.contact-button {
+    background-color: #E58275;
+    border-radius:22.5rem;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+}
+.button-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #F1F6F9;
+    text-align: center;
+    line-height: 35px;
+}
+.contact-row {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.contact-right {
+    text-align: center;
+}
+
+.contact-icons {
+    width: 2rem;
+    height: 2rem;
+    margin: 1.5rem 3rem 3rem 3rem;
+}
+
+/* not working --fix
+.contact-icons:hover, .contact-icons:focus {
+    fill: #E58275;
+} */
+
+
+/* footer */
+#footer {
+    padding: 3% 15% 3% 15%;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #E58275;
+    margin: 0;
+}
+.footer-email {
+    font-family: 'Playfair Display', serif;
+    font-size: .8rem;
+    color: #9BA4B4;
+    margin: 0;
 }
