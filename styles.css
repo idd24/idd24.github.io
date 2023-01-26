@@ -148,7 +148,8 @@ p {
 .contact-icons {
     width: 2rem;
     height: 2rem;
-    margin: 1.5rem 3rem 3rem 3rem;
+    margin: 1.2rem;
+    /* margin: 1.5rem 3rem 3rem 3rem; */
 }
 
 /* not working --fix
@@ -174,4 +175,24 @@ p {
     font-size: .8rem;
     color: #9BA4B4;
     margin: 0;
+}
+
+#copy-email {
+    cursor: pointer;
+}
+
+/* animation */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(1rem);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
 }
