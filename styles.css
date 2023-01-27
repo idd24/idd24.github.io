@@ -8,38 +8,43 @@ body {
     padding-bottom: 14%;
 }
 
-/* general typography */
+@media screen and (max-width: 575px) {
+    .container-fluid {
+        padding: 2% 8%;
+        padding-bottom: 15%;
+    }
+}
 
+/* general typography */
 h1 {
     font-family: 'Playfair Display', serif;
     color: #F1F6F9;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 5rem;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
     color: #E58275;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 h3 {
     font-family: 'Playfair Display', serif;
     color: #F1F6F9;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #9BA4B4;
 }
 
 /* bootstrap */
-
 .col-lg-6 {
     margin: auto;
 }
@@ -47,6 +52,7 @@ p {
 .btn:hover, .btn:focus {
     background-color: #9BA4B4;
 }
+
 /* nav bar  */
 .navbar {
     padding: 0 0 8rem 0;
@@ -59,7 +65,7 @@ p {
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 1.125rem;
 }
 
 .nav-link {
@@ -67,7 +73,33 @@ p {
     color: #F1F6F9;
 }
 
+.navbar-toggler {
+    padding: 0;
+}
+@media screen and (max-width: 575px) {
+    .nav-element {
+        padding: 1rem 0 5rem 0;
+    }
+
+    #navbarSupportedContent {
+        background-color: #E58275;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+}
+
 /* title section */
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 4rem;
+    }
+    .title-info {
+        font-size: 1.3rem;
+    }
+    .title-image {
+        margin-top: 2.2rem;
+    } 
+}
 
 .title-info {
     margin-top: 2.5rem;
@@ -82,6 +114,12 @@ p {
     padding: 2% 15% 6% 15%;
 }
 
+@media screen and (max-width: 575px) {
+   #experience {
+    padding: 2% 8%;
+    padding-bottom: 15%;
+    }
+}
 .child-info {
     margin: 5% 0 0 0;
 
@@ -91,36 +129,64 @@ p {
 }
 
 .company-name {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .company-info {
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+    .company-section {
+        padding: 0;
+    }
 }
 
 /* skills */
 .skill-image {
     padding-right: 1rem;
 }
+.svg-type {
+    padding-right: 1rem;
+    width: 48px;
+    height: 48px;
+}
 .skill-name {
     color: #9BA4B4;
+}
+@media screen and (max-width: 575px) {
+    .skill-image {
+        width: 42px;
+    }
+    .skill-name {
+        font-size: 1.2rem;
+    }
+    .svg-type {
+        width: 42px;
+        height: 26px;
+    }
 }
 
 /* contact */
 #contact {
     padding: 0% 15% 2% 15%;
 }
+@media screen and (max-width: 575px) {
+    #contact {
+        padding: 2% 8%;
+    }
+}
 
 .contact-left {
     padding: 2rem 0
 }
 .contact-title {
-    font-size: 80px;
+    font-size: 5rem;
     padding-bottom: 2rem;
 }
 
 .contact-text {
-    font-size: 22px;
+    font-size: 1.4;
 }
 
 .contact-button {
@@ -135,7 +201,7 @@ p {
     font-size: 3rem;
     color: #F1F6F9;
     text-align: center;
-    line-height: 35px;
+    line-height: 2.2rem;
 }
 .contact-row {
     padding-top: 2.5rem;
@@ -149,14 +215,20 @@ p {
     width: 2rem;
     height: 2rem;
     margin: 1.2rem;
-    /* margin: 1.5rem 3rem 3rem 3rem; */
 }
 
-/* not working --fix
-.contact-icons:hover, .contact-icons:focus {
-    fill: #E58275;
-} */
-
+@media screen and (max-width: 575px) {
+    .contact-row {
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .contact-title {
+        font-size: 4.5rem;
+    }
+    .contact-text {
+        font-size: 1.3rem;
+    }
+}
 
 /* footer */
 #footer {
@@ -181,8 +253,20 @@ p {
     cursor: pointer;
 }
 
-/* animation */
+@media screen and (max-width: 575px) {
+    #footer {
+        padding: 2% 8%;
+        padding-bottom: 2rem;
+    }
+    .footer-text{
+        font-size: 0.8rem;
+    }
+    .footer-email {
+        font-size: 0.8rem;
+    }
+}
 
+/* animation */
 .hidden {
     opacity: 0;
     filter: blur(5px);
