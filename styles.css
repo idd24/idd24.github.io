@@ -130,9 +130,14 @@ p {
 
 .company-name {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .company-info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    color: #9BA4B4;
     font-size: 1rem;
 }
 
@@ -232,7 +237,7 @@ p {
 
 /* footer */
 #footer {
-    padding: 3% 15% 3% 15%;
+    padding: 3% 15% 2% 15%;
     text-align: center;
 }
 
