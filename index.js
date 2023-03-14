@@ -8,6 +8,7 @@ $(document).ready(function() {
         trigger : 'click',
         container: 'body',
     })
+    
     setInterval(function () {
         $('[data-toggle="tooltip"]').tooltip('hide'); 
     }, 5000);

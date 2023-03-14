@@ -272,9 +272,6 @@ p {
 }
 
 /* animation */
-.tooltip {
-    transition: none !important;
-};
 
 .hidden {
     opacity: 0;
@@ -289,3 +286,7 @@ p {
     transform: translateY(0);
     transition: all 2s;
 }
+
+.tooltip {
+    transition: none !important;
+};
