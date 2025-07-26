@@ -1,5 +1,5 @@
 experience1 = `
-    <h3 class="company-name">Web Developer @ Turn 14 
+    <h3 class="company-name">Web Developer @ <a href='https://www.turn14.com/' target="_blank">Turn 14</a>
     <span class="toggle-icon" onclick="toggleExperience()">
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ experience1 = `
 `
 
 experience2 = `
-    <h3 class="company-name">Software Engineer @ Comcast 
+    <h3 class="company-name">Software Engineer @ <a href='https://corporate.comcast.com/' target="_blank">Comcast</a> 
     <span class="toggle-icon" onclick="toggleExperience()">
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ experience2 = `
 `
 
 experience3 = `
-    <h3 class="company-name">Data Engineer @ Future Standard 
+    <h3 class="company-name">Data Engineer @ <a href='https://www.futurestandard.com/' target="_blank">Future Standard </a>
     <span class="toggle-icon" onclick="toggleExperience()">
     <svg
         xmlns="http://www.w3.org/2000/svg"

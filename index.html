@@ -130,5 +130,24 @@
     <!-- personal js -->
     <script defer src="animate.js"></script>
     <script src="index.js"></script>
+    <script>
+        let current = 0;
+        function toggleExperience() {
+            const experiences = [experience3, experience2, experience1];
+            const experienceContent = document.getElementById("company-cards");
+            current = (current + 1) % experiences.length;
+            let dots = '<div class="pagination-wrapper"><div class="pagination-dots" style=>';
+            for (let i = 0; i < experiences.length; i++) {
+                if (i === current) {
+                    dots += '<span class="dot dot-active"></span>';
+                } else {
+                    dots += `<span class="dot${i === ((current + 1) % experiences.length) ? ' dot-hover' : ' dot-inactive'}"></span>`;
+                }
+            }
+            dots += '</div>';
+            dots += '</div>';
+            experienceContent.innerHTML = experiences[current] + dots;
+        }
+    </script>
 </body>
 </html>

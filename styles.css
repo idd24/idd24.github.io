@@ -304,3 +304,38 @@ p {
 .tooltip {
     transition: none !important;
 };
+
+.pagination-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border 0.2s, background 0.2s;
+    margin-right: 2%;
+}
+.dot-active {
+    background: #16A1D5;
+    border: 2px solid #16A1D5;
+}
+.dot-hover {
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.dot-inactive {
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.3);
+}
