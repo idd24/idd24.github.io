@@ -1,7 +1,21 @@
 experience1 = `
     <h3 class="company-name">Web Developer @ Turn 14 
     <span class="toggle-icon" onclick="toggleExperience()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#16A1D5" viewBox="0 0 256 256"><path d="M88,24V16a8,8,0,0,1,16,0v8a8,8,0,0,1-16,0ZM16,104h8a8,8,0,0,0,0-16H16a8,8,0,0,0,0,16ZM124.42,39.16a8,8,0,0,0,10.74-3.58l8-16a8,8,0,0,0-14.31-7.16l-8,16A8,8,0,0,0,124.42,39.16Zm-96,81.69-16,8a8,8,0,0,0,7.16,14.31l16-8a8,8,0,1,0-7.16-14.31ZM219.31,184a16,16,0,0,1,0,22.63l-12.68,12.68a16,16,0,0,1-22.63,0L132.7,168,115,214.09c0,.1-.08.21-.13.32a15.83,15.83,0,0,1-14.6,9.59l-.79,0a15.83,15.83,0,0,1-14.41-11L32.8,52.92A16,16,0,0,1,52.92,32.8L213,85.07a16,16,0,0,1,1.41,29.8l-.32.13L168,132.69ZM208,195.31,156.69,144h0a16,16,0,0,1,4.93-26l.32-.14,45.95-17.64L48,48l52.2,159.86,17.65-46c0-.11.08-.22.13-.33a16,16,0,0,1,11.69-9.34,16.72,16.72,0,0,1,3-.28,16,16,0,0,1,11.3,4.69L195.31,208Z"></path></svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#16A1D5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        >
+        <path d="M5 12l14 0" />
+        <path d="M13 18l6 -6" />
+        <path d="M13 6l6 6" />
+    </svg>
     </span> 
     </h3>
     <ul class="compant-desc">
@@ -20,11 +34,24 @@ experience1 = `
     </ul>
 `
 
-
 experience2 = `
-    <h3 class="company-name">ML Engineer @ Comcast 
+    <h3 class="company-name">Software Engineer @ Comcast 
     <span class="toggle-icon" onclick="toggleExperience()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#16A1D5" viewBox="0 0 256 256"><path d="M88,24V16a8,8,0,0,1,16,0v8a8,8,0,0,1-16,0ZM16,104h8a8,8,0,0,0,0-16H16a8,8,0,0,0,0,16ZM124.42,39.16a8,8,0,0,0,10.74-3.58l8-16a8,8,0,0,0-14.31-7.16l-8,16A8,8,0,0,0,124.42,39.16Zm-96,81.69-16,8a8,8,0,0,0,7.16,14.31l16-8a8,8,0,1,0-7.16-14.31ZM219.31,184a16,16,0,0,1,0,22.63l-12.68,12.68a16,16,0,0,1-22.63,0L132.7,168,115,214.09c0,.1-.08.21-.13.32a15.83,15.83,0,0,1-14.6,9.59l-.79,0a15.83,15.83,0,0,1-14.41-11L32.8,52.92A16,16,0,0,1,52.92,32.8L213,85.07a16,16,0,0,1,1.41,29.8l-.32.13L168,132.69ZM208,195.31,156.69,144h0a16,16,0,0,1,4.93-26l.32-.14,45.95-17.64L48,48l52.2,159.86,17.65-46c0-.11.08-.22.13-.33a16,16,0,0,1,11.69-9.34,16.72,16.72,0,0,1,3-.28,16,16,0,0,1,11.3,4.69L195.31,208Z"></path></svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#16A1D5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        >
+        <path d="M5 12l14 0" />
+        <path d="M13 18l6 -6" />
+        <path d="M13 6l6 6" />
+    </svg>
     </span>
     </h3>
     <ul class="compant-desc">
@@ -38,12 +65,46 @@ experience2 = `
             Documented data pipelines for transformer model generation using Databricks and AWS         
         </li>    
     </ul>
-    
+`
+
+experience3 = `
+    <h3 class="company-name">Data Engineer @ Future Standard 
+    <span class="toggle-icon" onclick="toggleExperience()">
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#16A1D5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        >
+        <path d="M5 12l14 0" />
+        <path d="M13 18l6 -6" />
+        <path d="M13 6l6 6" />
+    </svg>
+    </span>
+    </h3>
+    <ul class="compant-desc">
+        <li class="company-info">
+            Designed and deployed an end-to-end ETL pipeline, streamlining reporting and improving data flow
+        </li>
+        <li class="company-info">
+            Diagnosed and resolved an issue in the ETL process that was corrupting CRM by incorrectly overwriting valid data,
+improving data integrity
+        </li>
+        <li class="company-info">
+            Replaced static, hardcoded queries with a dynamic logic layer that leveraged real-time CRM data, eliminating
+manual updates and testing cycles         
+        </li>    
+    </ul>
 `
 
 $(document).ready(function() {
     //mail icon action
-    isExperience1 = true;
+    current = -1;
     toggleExperience();
     $('#copy-email').on('click', function() {
         navigator.clipboard.writeText('ishandesai12@gmail.com')
@@ -60,7 +121,8 @@ $(document).ready(function() {
 });
 
 function toggleExperience() {
+    const experiences = [experience3, experience2, experience1];
     const experienceContent = document.getElementById("company-cards");
-    experienceContent.innerHTML = isExperience1 ? experience2 : experience1;
-    isExperience1 = !isExperience1;
+    current = (current + 1) % experiences.length;
+    experienceContent.innerHTML = experiences[current];
 }
