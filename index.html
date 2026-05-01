@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="ishan desai, drexel university, developer">
+    <link rel="canonical" href="https://ishandesai.me">
     <title>Ishan Desai</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <!-- fonts -->
@@ -17,6 +18,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- redirect notice -->
+    <main id="redirect-notice" style="min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:#ffffff;font-family:'Roboto',sans-serif;color:#1a1a1a;text-align:center;">
+        <div style="max-width:560px;">
+            <p style="font-family:'Roboto',sans-serif;font-weight:300;letter-spacing:0.18em;text-transform:uppercase;font-size:0.85rem;color:#6b6b6b;margin:0 0 18px;">Ishan Desai</p>
+            <h1 style="font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(2rem,5vw,3rem);margin:0 0 16px;line-height:1.15;color:#1a1a1a;">This site has moved.</h1>
+            <p style="font-family:'Roboto',sans-serif;font-weight:300;font-size:1.05rem;margin:0 0 32px;color:#3a3a3a;">My portfolio now lives at <strong style="font-weight:500;">ishandesai.me</strong></p>
+            <a href="https://ishandesai.me" aria-label="Go to ishandesai.me" title="Go to ishandesai.me" style="display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;border:2px solid #1a1a1a;color:#1a1a1a;text-decoration:none;transition:transform 0.2s ease, background 0.2s ease;" onmouseover="this.style.background='#1a1a1a';this.style.color='#ffffff';this.style.transform='translate(2px,-2px)';" onmouseout="this.style.background='transparent';this.style.color='#1a1a1a';this.style.transform='none';">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+        </div>
+    </main>
+    <!-- legacy content — kept for reference, not rendered -->
+    <div style="display:none" aria-hidden="true">
     <!-- main -->
     <section id="main" class="hidden">
         <div class="container-fluid">
@@ -149,5 +163,6 @@
             experienceContent.innerHTML = experiences[current] + dots;
         }
     </script>
+    </div>
 </body>
 </html>
